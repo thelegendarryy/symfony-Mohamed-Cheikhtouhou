@@ -10,6 +10,7 @@
         "doctrine/doctrine-bundle": "^2.11",
         "doctrine/doctrine-migrations-bundle": "^3.3",
         "doctrine/orm": "^2.16",
+        "pagerfanta/twig": "*",
         "stof/doctrine-extensions-bundle": "^1.9",
         "symfony/asset": "6.3.*",
         "symfony/console": "6.3.*",
@@ -76,9 +77,11 @@
         }
     },
     "require-dev": {
+        "doctrine/doctrine-fixtures-bundle": "^3.5",
         "symfony/debug-bundle": "6.3.*",
         "symfony/maker-bundle": "^1.51",
         "symfony/stopwatch": "6.3.*",
-        "symfony/web-profiler-bundle": "6.3.*"
+        "symfony/web-profiler-bundle": "6.3.*",
+        "zenstruck/foundry": "^1.36"
     }
 }
